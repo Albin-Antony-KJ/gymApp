@@ -15,4 +15,9 @@ public class GymController {
     public String showHome(){
         return "home.jsp";
     }
+
+    @GetMapping("/Customer/new")
+    public String newCustomer(){
+        return "registration.jsp";
+    }
 }
